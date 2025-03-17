@@ -1,0 +1,28 @@
+[window.padding]
+x = 20 
+y = 20
+
+[colors.primary]
+foreground = "#dce1de" # actually text and other symbolic things
+background = "#282828" # background color
+
+[window]
+opacity = 1
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+normal = {family = "JetBrains Mono Nerd Font", style = "Medium"}
+bold = {family = "JetBrains Mono Nerd Font", style = "Bold"}
+italic = {family = "JetBrains Mono Nerd Font", style = "MediumItalic"}
+bold_italic = {family = "JetBrains Mono Nerd Font", style = "BoldItalic"}
+
+[cursor.style]
+shape = "Beam"
+blinking = "Never"
